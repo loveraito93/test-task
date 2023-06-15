@@ -1,19 +1,5 @@
-# test-task
+# Тестовое задания для ЖИЛФОНД
 
-## Project setup
-```
-npm install
-```
+## Приложение было развернуто на Vue Cli.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Поиск сотрудников производится без учета реестра.

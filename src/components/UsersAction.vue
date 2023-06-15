@@ -41,7 +41,7 @@ export default {
       if (this.usersValue.length > 0) {
         const reg = this.usersValue
           .match(/\w+/g)
-          .map((x) => x[0].toUpperCase() + x.slice(1));
+          .map((x) => x[0].toUpperCase() + x.slice(1).toLowerCase());
         this.$store.dispatch("getAllUsers", reg);
       }
     }
