@@ -45,7 +45,7 @@ h1 {
   display: inline-block;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
-  margin: auto;
+  margin: 20px auto;
 }
 
 @keyframes rotation {

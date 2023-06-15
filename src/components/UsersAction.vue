@@ -10,16 +10,15 @@
       <div
         v-if="$store.state.users === null && !$store.state.loader"
         class="message"
-        @click="$store.dispatch('getAllUsers')"
       >
         Начните поиск...
       </div>
-      <div class="loader" v-else-if="$store.state.loader" />
       <found-users-list
-        v-else-if="!$store.state.loader && $store.state.users.length > 0"
+        v-else-if="$store.state.users !== null && $store.state.users.length > 0"
         :usersList="$store.state.users"
       />
       <div class="message" v-else>Ничего не найдено</div>
+      <div class="loader" v-if="$store.state.loader" />
     </div>
   </div>
 </template>

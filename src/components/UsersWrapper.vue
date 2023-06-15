@@ -26,8 +26,7 @@ export default {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   width: 100%;
-  height: 575px;
-  position: relative;
+  min-height: 575px;
 }
 
 .wrapper__info {
